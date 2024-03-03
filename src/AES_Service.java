@@ -5,7 +5,7 @@ import javax.crypto.spec.SecretKeySpec;
 public class AES_Service {
     public static byte[] encrypt(byte[] plaintext, byte[] key, byte[] IV) throws Exception {
 
-        // Cipher instanca
+        // Cipher instance
         Cipher cipher = Cipher.getInstance("AES/CTR/NoPadding");
 
         // Create SecretKeySpec
