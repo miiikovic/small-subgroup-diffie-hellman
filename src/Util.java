@@ -39,7 +39,7 @@ public class Util {
     // Attack
     public static String breaker(BigInteger p, BigInteger g, byte[] iv, byte[] cipherText, String pattern)
                                                                                         throws Exception {
-        // Počevši od 1
+        // Starting from 1
         BigInteger i = BigInteger.valueOf(1);
 
         // Brute-Force
